@@ -17,7 +17,8 @@ namespace GradeBook
             {
                 result += number;
             }
-            Console.WriteLine(result);
+            var average = result / grades.Count;
+            Console.WriteLine(average);
             
             if(args.Length > 0)
             {
