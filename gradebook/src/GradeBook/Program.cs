@@ -19,13 +19,6 @@ namespace GradeBook
             result /= grades.Count;
             Console.WriteLine($"The average grade is {result:N1}");
             
-            if(args.Length > 0)
-            {
-                Console.WriteLine($"Hello, {args[1]}!");
-            }
-            else {
-                Console.WriteLine("Hello!");
-            }
         }
     }
 }
