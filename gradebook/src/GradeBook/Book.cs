@@ -11,12 +11,12 @@ namespace GradeBook
             this.name = name; 
         }
 
-        private List<double> grades; 
-        private string name; 
         public void AddGrade(double grade) 
         {
             grades.Add(grade);
         } 
+        private List<double> grades; 
+        private string name; 
 
     }
 }
