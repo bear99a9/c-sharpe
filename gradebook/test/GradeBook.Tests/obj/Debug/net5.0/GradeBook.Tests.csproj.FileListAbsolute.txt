@@ -97,3 +97,8 @@
 /Users/seanedwards/Projects/c-sharpe/gradebook/test/GradeBook.Tests/obj/Debug/net5.0/ref/GradeBook.Tests.dll
 /Users/seanedwards/Projects/c-sharpe/gradebook/test/GradeBook.Tests/obj/Debug/net5.0/GradeBook.Tests.pdb
 /Users/seanedwards/Projects/c-sharpe/gradebook/test/GradeBook.Tests/obj/Debug/net5.0/GradeBook.Tests.genruntimeconfig.cache
+/Users/seanedwards/Projects/c-sharpe/gradebook/test/GradeBook.Tests/bin/Debug/net5.0/GradeBook.deps.json
+/Users/seanedwards/Projects/c-sharpe/gradebook/test/GradeBook.Tests/bin/Debug/net5.0/GradeBook.runtimeconfig.json
+/Users/seanedwards/Projects/c-sharpe/gradebook/test/GradeBook.Tests/bin/Debug/net5.0/GradeBook.runtimeconfig.dev.json
+/Users/seanedwards/Projects/c-sharpe/gradebook/test/GradeBook.Tests/bin/Debug/net5.0/GradeBook.dll
+/Users/seanedwards/Projects/c-sharpe/gradebook/test/GradeBook.Tests/bin/Debug/net5.0/GradeBook.pdb
