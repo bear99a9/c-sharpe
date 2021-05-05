@@ -20,9 +20,9 @@ namespace GradeBook
             result.High = grades[^1];
             result.Low = grades[0];
             
-            for(var i= 0; i < grades.Count; i += 1)
+            foreach (var grade in grades)
             {
-                result.Average += grades[i];
+                 result.Average += grade;
             }
 
             result.Average /= grades.Count;
