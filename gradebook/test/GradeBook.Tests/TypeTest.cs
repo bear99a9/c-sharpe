@@ -6,7 +6,7 @@ namespace GradeBook.Tests
     public class TypeTests
     {
     [   Fact]
-        public void SetNameChangesBookObjectsName()
+        public void SetNameFromReference()
         {   
             var book1 = GetBook("Book 1");
             SetName(book1, "New Name");
