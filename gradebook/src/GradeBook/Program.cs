@@ -18,10 +18,20 @@ namespace GradeBook
                 {
                     break;
                 }
-                var grade = double.Parse(input);
-                book.AddGrade(grade);
-            }
 
+                try
+                {
+                    var grade = double.Parse(input);
+                    book.AddGrade(grade);
+                }
+                catch(System.Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                    throw;
+                }
+                
+            }
+            
             var stats = book.GetStatistics();
 
             Console.WriteLine($"The lowest grade is {stats.Low}");

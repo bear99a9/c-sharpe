@@ -91,7 +91,7 @@ namespace GradeBook
             }
             else
             {
-                Console.WriteLine($"{grade} is an invalid number");
+                throw new ArgumentException($"Invalid {nameof(grade)}");
             }
         }
 
