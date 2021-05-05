@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace GradeBook
+namespace GradeBook 
 {
     class Program
     {

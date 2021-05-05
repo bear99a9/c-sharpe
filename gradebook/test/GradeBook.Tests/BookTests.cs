@@ -21,5 +21,16 @@ namespace GradeBook.Tests
             Assert.Equal(77.3, result.Low, 1); 
             
         }
+
+        [Fact]
+
+        public void AddGradeTest() 
+        {
+            var book = new Book("Sean");
+            book.AddGrade(105.6);
+
+            Assert.Equal("Sean", book.Name);
+            
+        }
     }
 }
