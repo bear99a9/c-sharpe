@@ -18,7 +18,8 @@ namespace GradeBook.Tests
 
             Assert.Equal(85.6, result.Average, 1);
             Assert.Equal(90.5, result.High, 1);
-            Assert.Equal(77.3, result.Low, 1); 
+            Assert.Equal(77.3, result.Low, 1);
+            Assert.Equal('B', result.Letter); 
             
         }
 
@@ -43,14 +44,11 @@ namespace GradeBook.Tests
             book.AddLetterGrade('D');
             book.AddLetterGrade('Z');
 
-
-
             Assert.Equal(90, book.grades[0]);
             Assert.Equal(80, book.grades[1]);
             Assert.Equal(70, book.grades[2]);
             Assert.Equal(60, book.grades[3]);
             Assert.Equal(0, book.grades[4]);
-
         }
 
     }
