@@ -39,10 +39,18 @@ namespace GradeBook.Tests
             var book = new Book("Sean");
             book.AddLetterGrade('A');
             book.AddLetterGrade('B');
+            book.AddLetterGrade('C');
+            book.AddLetterGrade('D');
+            book.AddLetterGrade('Z');
+
 
 
             Assert.Equal(90, book.grades[0]);
             Assert.Equal(80, book.grades[1]);
+            Assert.Equal(70, book.grades[2]);
+            Assert.Equal(60, book.grades[3]);
+            Assert.Equal(0, book.grades[4]);
+
         }
 
     }
