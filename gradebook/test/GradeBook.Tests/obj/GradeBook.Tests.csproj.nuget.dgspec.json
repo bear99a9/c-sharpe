@@ -1,25 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "/Users/seanedwards/Projects/c-sharpe/gradebook/test/GradeBook.Tests/GradeBook.Tests.csproj": {}
+    "C:\\learning\\c-sharpe\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj": {}
   },
   "projects": {
-    "/Users/seanedwards/Projects/c-sharpe/gradebook/src/GradeBook/GradeBook.csproj": {
+    "C:\\learning\\c-sharpe\\gradebook\\src\\GradeBook\\GradeBook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/seanedwards/Projects/c-sharpe/gradebook/src/GradeBook/GradeBook.csproj",
+        "projectUniqueName": "C:\\learning\\c-sharpe\\gradebook\\src\\GradeBook\\GradeBook.csproj",
         "projectName": "GradeBook",
-        "projectPath": "/Users/seanedwards/Projects/c-sharpe/gradebook/src/GradeBook/GradeBook.csproj",
-        "packagesPath": "/Users/seanedwards/.nuget/packages/",
-        "outputPath": "/Users/seanedwards/Projects/c-sharpe/gradebook/src/GradeBook/obj/",
+        "projectPath": "C:\\learning\\c-sharpe\\gradebook\\src\\GradeBook\\GradeBook.csproj",
+        "packagesPath": "C:\\Users\\sean.edwards\\.nuget\\packages\\",
+        "outputPath": "C:\\learning\\c-sharpe\\gradebook\\src\\GradeBook\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/seanedwards/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\sean.edwards\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -52,34 +60,42 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/seanedwards/Projects/c-sharpe/gradebook/test/GradeBook.Tests/GradeBook.Tests.csproj": {
+    "C:\\learning\\c-sharpe\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/seanedwards/Projects/c-sharpe/gradebook/test/GradeBook.Tests/GradeBook.Tests.csproj",
+        "projectUniqueName": "C:\\learning\\c-sharpe\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
         "projectName": "GradeBook.Tests",
-        "projectPath": "/Users/seanedwards/Projects/c-sharpe/gradebook/test/GradeBook.Tests/GradeBook.Tests.csproj",
-        "packagesPath": "/Users/seanedwards/.nuget/packages/",
-        "outputPath": "/Users/seanedwards/Projects/c-sharpe/gradebook/test/GradeBook.Tests/obj/",
+        "projectPath": "C:\\learning\\c-sharpe\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
+        "packagesPath": "C:\\Users\\sean.edwards\\.nuget\\packages\\",
+        "outputPath": "C:\\learning\\c-sharpe\\gradebook\\test\\GradeBook.Tests\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/seanedwards/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\sean.edwards\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/seanedwards/Projects/c-sharpe/gradebook/src/GradeBook/GradeBook.csproj": {
-                "projectPath": "/Users/seanedwards/Projects/c-sharpe/gradebook/src/GradeBook/GradeBook.csproj"
+              "C:\\learning\\c-sharpe\\gradebook\\src\\GradeBook\\GradeBook.csproj": {
+                "projectPath": "C:\\learning\\c-sharpe\\gradebook\\src\\GradeBook\\GradeBook.csproj"
               }
             }
           }
@@ -130,7 +146,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

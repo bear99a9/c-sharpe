@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "l1tci/6fymjA1lbE8r+Pwvq81ZpFzYZZbl3JiIWvzYIRLs+I5/C0vn+tKD2GeterMZs4jY54DWCnwaCcVENfZg==",
+  "dgSpecHash": "nNav3Ao/iU6y5lLtuFkHlhGwMUeyjvHyXf0KjZTjYIrA7ZZF75rxi54IlNOg6JMi6dI/3WKCkym6X3NNGMMq+Q==",
   "success": true,
-  "projectFilePath": "/Users/seanedwards/Projects/c-sharpe/gradebook/src/GradeBook/GradeBook.csproj",
+  "projectFilePath": "C:\\learning\\c-sharpe\\gradebook\\src\\GradeBook\\GradeBook.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
