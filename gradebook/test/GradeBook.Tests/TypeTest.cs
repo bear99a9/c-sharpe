@@ -6,6 +6,20 @@ namespace GradeBook.Tests
     public class TypeTests
     {
         [Fact]
+        public void CSHARPCanPassByValue()
+        {   
+            var book1 = GetBook("Book 1");
+            GetBookSetName(ref book1, "New Name");
+
+            Assert.Equal("New Name", book1.Name);
+        }
+
+        private void GetBookSetName(ref Book book, string name)
+        {   
+            book = new Book(name);
+        }
+        
+        [Fact]
         public void CSHARPIsPassByValue()
         {   
             var book1 = GetBook("Book 1");
