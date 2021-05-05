@@ -21,15 +21,33 @@ namespace GradeBook
             result.Low = grades[0];
             
             foreach (var grade in grades)
-            {
-                 result.Average += grade;
+            {   
+                if(grade == 42.1) 
+                {
+                    continue;
+                }
+                result.Average += grade;
             }
 
             result.Average /= grades.Count;
 
             return result;
         }
-
+        public void AddLetterGrade(char letter)
+        {
+            if (letter == 'A')
+            {
+                AddGrade(90);
+            }
+            else if (letter == 'B')
+            {
+                AddGrade(80);
+            }
+            else
+            {
+                AddGrade(70);
+            }
+        }
         public void AddGrade(double grade) 
         {   
             if (grade <= 100 && grade >= 0)
@@ -42,7 +60,7 @@ namespace GradeBook
             }
         }
 
-        private List<double> grades; 
+        public List<double> grades; 
         public string Name; 
 
     }

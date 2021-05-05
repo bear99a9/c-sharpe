@@ -29,8 +29,21 @@ namespace GradeBook.Tests
             var book = new Book("Sean");
             book.AddGrade(105.6);
 
-            Assert.Equal("Sean", book.Name);
-            
+            Assert.Equal(0, book.grades.Count);
         }
+
+        [Fact]
+
+        public void AddLetterGradeTest()
+        {
+            var book = new Book("Sean");
+            book.AddLetterGrade('A');
+            book.AddLetterGrade('B');
+
+
+            Assert.Equal(90, book.grades[0]);
+            Assert.Equal(80, book.grades[1]);
+        }
+
     }
 }
