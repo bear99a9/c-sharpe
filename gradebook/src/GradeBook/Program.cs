@@ -32,6 +32,11 @@ namespace GradeBook
                 {
                     Console.WriteLine(ex.Message);
                 }
+                finally
+                {
+                    Console.WriteLine($"You cheeky little monkey!!");
+                    
+                }
                 
             }
             
