@@ -7,7 +7,8 @@ namespace GradeBook
     public class Book 
     {   
         public Book(string name) 
-        {
+        {   
+            category = "History";
             grades = new List<double>();
             Name = name; 
         }
@@ -101,5 +102,8 @@ namespace GradeBook
             get; 
             private set;
         }
+
+        readonly string category = "Science";
+        // bit like a constant canonly be read not overwritten exepct in the constructor 
     }
 }
