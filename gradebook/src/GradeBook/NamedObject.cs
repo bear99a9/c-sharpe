@@ -1,11 +1,16 @@
 namespace GradeBook
 {
     public class NamedObject
+    {
+        public NamedObject(string name)
         {
-            public string Name 
+            Name = name;
+        }
+
+        public string Name 
             {
                 get;
                 set;
             }
-        }
+    }
 }
