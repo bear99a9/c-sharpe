@@ -2,7 +2,9 @@ using System.Collections.Generic;
 using System;
 
 namespace GradeBook 
-{
+{   
+    public delegate void GradeAddedDelegate(object sender, EventArgs args); 
+
     public class Book : NamedObject
     {   
         public Book(string name) 
@@ -54,39 +56,15 @@ namespace GradeBook
             
             return result;
         }
-        public void AddGrade(char letter)
-        {
-            switch (letter)
-            {
-                case 'A':
-                    AddGrade(90);
-                    break;
-                case 'B':
-                    AddGrade(80);
-                    break;
-                case 'C':
-                    AddGrade(70);
-                    break;
-                case 'D':
-                    AddGrade(60);
-                    break;
-                case 'E':
-                    AddGrade(50);
-                    break;
-                case 'F':
-                    AddGrade(40);
-                    break;
-                default:
-                    AddGrade(0);
-                    break;
-            }
-            
-        }
         public void AddGrade(double grade) 
         {   
             if (grade <= 100 && grade >= 0)
             {   
                 grades.Add(grade); 
+                if(GradeAdded != null)
+                {
+                    GradeAdded(this, new EventArgs());
+                }
             }
             else
             {
@@ -94,9 +72,10 @@ namespace GradeBook
             }
         }
 
+        public event GradeAddedDelegate GradeAdded;
+
         private List<double> grades; 
         
-
         public const string CATEGORY = "Science";
         // const cannot be overwritten anywhere 
         // public allows the const to be read from outside the class
