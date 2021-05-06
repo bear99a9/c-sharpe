@@ -13,7 +13,7 @@ namespace GradeBook
             Name = name; 
         }
 
-        public Statistics GetStatistics() {
+        public override Statistics GetStatistics() {
             
             var result = new Statistics();
             result.Average = 0.0;
@@ -72,7 +72,7 @@ namespace GradeBook
             }
         }
 
-        public event GradeAddedDelegate GradeAdded;
+        public override event GradeAddedDelegate GradeAdded;
 
         private List<double> grades; 
         
