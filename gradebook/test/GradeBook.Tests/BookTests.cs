@@ -22,6 +22,5 @@ namespace GradeBook.Tests
             Assert.Equal('B', result.Letter); 
             
         }
-
     }
 }
