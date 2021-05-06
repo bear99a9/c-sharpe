@@ -95,11 +95,7 @@ namespace GradeBook
         }
 
         private List<double> grades; 
-        public string Name
-        {
-            get; 
-            private set;
-        }
+        
 
         public const string CATEGORY = "Science";
         // const cannot be overwritten anywhere 
