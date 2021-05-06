@@ -8,7 +8,6 @@ namespace GradeBook
     {   
         public Book(string name) 
         {   
-            category = "History";
             grades = new List<double>();
             Name = name; 
         }
@@ -103,7 +102,8 @@ namespace GradeBook
             private set;
         }
 
-        readonly string category = "Science";
-        // bit like a constant canonly be read not overwritten exepct in the constructor 
+        public const string CATEGORY = "Science";
+        // const cannot be overwritten anywhere 
+        // public allows the const to be read from outside the class
     }
 }
