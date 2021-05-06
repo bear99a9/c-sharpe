@@ -3,8 +3,7 @@ using System;
 
 namespace GradeBook 
 {
-    
-    public class Book 
+    public class Book : NamedObject
     {   
         public Book(string name) 
         {   
