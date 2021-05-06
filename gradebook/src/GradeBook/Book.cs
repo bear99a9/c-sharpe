@@ -103,8 +103,10 @@ namespace GradeBook
                 return name; 
             }
             set
-            {
-                name = value;
+            {   if(!String.IsNullOrEmpty(value))
+                {
+                    name = value;
+                }
             }
         }
         private string name; 
