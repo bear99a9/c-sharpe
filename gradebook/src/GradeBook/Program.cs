@@ -34,26 +34,22 @@ namespace GradeBook
                 }
                 finally
                 {
-                    Console.WriteLine($"You cheeky little monkey!!");
+                    Console.WriteLine($"**");
                     
                 }
                 
             }
             
-            if (book.grades.Count == 0)
-            {
-                throw new InvalidOperationException("Sequence contains no elements");
-            }
-            try 
-            {
-                var stats = book.GetStatistics();
-
-                Console.WriteLine($"The lowest grade is {stats.Low}");
-                Console.WriteLine($"The highest grade is {stats.High}");
-                Console.WriteLine($"The average grade is {stats.Average:N1}");
-                Console.WriteLine($"The average letter grade is {stats.Letter}");
-            }
             
+            
+            var stats = book.GetStatistics();
+
+            Console.WriteLine($"The lowest grade is {stats.Low}");
+            Console.WriteLine($"The highest grade is {stats.High}");
+            Console.WriteLine($"The average grade is {stats.Average:N1}");
+            Console.WriteLine($"The average letter grade is {stats.Letter}");
+        
+        
         }
     }
 }
